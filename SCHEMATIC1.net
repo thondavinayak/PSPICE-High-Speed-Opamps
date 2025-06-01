@@ -1,0 +1,10 @@
+* source RAUCH1
+R_R1         IN N00247  18k TC=0,0 
+R_R2         0 N00247  10k TC=0,0 
+C_C1         N00247 OUT  2.2n  TC=0,0 
+C_C2         N00247 N00273  2.2n  TC=0,0 
+R_R3         N00273 OUT  47k TC=0,0 
+V_V1         IN 0 DC 0Vdc AC 1Vac 
+V_V3         N00478 0 15Vdc
+V_V4         0 N01078 15Vdc
+X_U5A         0 N00273 N00478 N01078 OUT TL082
